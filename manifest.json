@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "name": "RIP FB Feed",
+  "version": "1.0",
+
+  "developer": {
+    "name": "rbino",
+    "url": "https://github.com/rbino/rip-fb-feed"
+  },
+
+  "description": "Makes you stop scrolling infinitely by deleting Facebook's feed.",
+
+  "icons": {
+    "48": "icons/rip-fb-feed-48.png",
+    "96": "icons/rip-fb-feed-96.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.facebook.com/*"],
+      "css": ["rip-fb-feed.css"],
+      "js": ["rip-fb-feed.js"],
+      "run_at": "document_start"
+    }
+  ]
+}
