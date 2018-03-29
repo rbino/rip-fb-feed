@@ -1,4 +1,7 @@
 # RIP FB Feed
-Makes you stop scrolling infinitely by deleting Facebook's feed.
+
+A WebExtension that makes you stop scrolling infinitely by deleting Facebook's feed.
+
+Like News Feed Eradicator but without the inspirational quotes.
 
 Compatible with Firefox 57+.
